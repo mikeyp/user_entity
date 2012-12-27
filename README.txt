@@ -1,0 +1,1 @@
+This doesn't work because it breaks hooks like hook_user_presave that pass around array like user objects, etc.
