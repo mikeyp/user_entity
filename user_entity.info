@@ -1,0 +1,7 @@
+name = User entity
+description = Integrate the user entity with it's own class that can be sub classed as needed through Entity API module.
+core = 7.x
+dependencies[] = entity
+
+files[] = includes/classes/user_entity.inc
+files[] = includes/classes/user_entity_controller.inc

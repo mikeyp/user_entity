@@ -1,0 +1,13 @@
+<?php
+
+
+/**
+ * @file
+ *
+ */
+
+function user_entity_entity_info_alter(&$info) {
+  $info['user']['controller class'] = 'UserEntityController';
+  $info['user']['entity class'] = 'UserEntity';
+
+}
